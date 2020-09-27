@@ -45,67 +45,17 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <h1 class="text-center">CALCULOS ENTRE 2 NÚMEROS</h1>
-        <h4 class="text-center">Este es un programa en PHP que permite mostrar la suma, resta, multiplicación y división de dos números enteros almacenados en 2 variables diferentes (utilice formularios HTML).</h4>
-        <form action="ejercicio1.php" method="POST">
-            <div class="form-group row mt-3 justify-content-center">
-                <label for="number1" class="col-1">Número 1</label>
-                <input type="number" name="number1" id="number1" class="form-control col-2"  placeholder="Numero 1">
-                <label for="number2" class="col-1">Número 2</label>
-                <input type="number" class="form-control col-2" name="number2" id="number2" placeholder="Numero 2">
-            </div>
-            <div class="form-group row mt-3 justify-content-center">
-                <select name="operator" id="operator" class="form-control offset-1 col-5">
-                    <option value="" selected disabled>Selecciona una operacion</option>
-                    <option value="add">Sumar</option>
-                    <option value="rest">Restar</option>
-                    <option value="multiplication">Multiplicar</option>
-                    <option value="divide">Dividir</option>
-                </select>
-            </div>
-            
+        <h1 class="text-center"><img src="img/postobon.png" alt="Postobón" width="500px"></h1>
+
+        <form action="ejercicio9.php" method="POST">
+
             <div class="form-group row justify-content-center">
                 <div class="col-1">
                     <button type="submit" name ="calcular" class="btn btn-primary">Calcular</button>
                 </div>
             </div>
         </form>
-
-        <?php 
-            $result = 0;
-            if(isset($_POST['calcular'])) : ?>
-                <?php 
-                    if(!empty($_POST['operator'])) {
-                        $operator = $_POST['operator'];
-
-                        $number1 = isset($_POST['number1']);
-                        $number2 = isset($_POST['number2']);
-
-                        if ($operator == "add") {
-                
-                            $result = $_POST["number1"] + $_POST["number2"];
-                        
-                        }
-                        else if ($operator == "rest") {
-                            $result = $_POST["number1"] - $_POST["number2"];
-                        }
-                        else if ($operator == "multiplication") {
-                            $result = $_POST["number1"] * $_POST["number2"];
-                        }
-                        else {
-                            $result = $_POST["number1"] / $_POST["number2"];
-                        }
-                    }
-                    else {
-                        echo 'No se ha seleccionado ningún operador';     
-                    }
-                ?>
-                
-        <?php endif ?>
-   
-            <h4 class="text-center">
-                <?php echo("El resultado de la operación es: ". $result) ?>
-            </h4>
+    </div>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

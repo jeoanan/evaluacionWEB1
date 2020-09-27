@@ -26,10 +26,36 @@
                 <li class="nav-item">
                     <a class="nav-link" href="ejercicio5.php">Ejercicio 5</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio6.php">Ejercicio 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio7.php">Ejercicio 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio8.php">Ejercicio 8</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio9.php">Ejercicio 9</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio10.php">Ejercicio 10</a>
+                </li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
+        <h1 class="text-center"><img src="img/spring_step.png" alt="Spring Step" with="500px"></h1>
+        <h4 class="text-center mt-3">Ingresa el numero de zapatos comprados y sus valores, y recibe un espectacular ¡¡DESCUENTO!!</h4>
+
+        <form action="ejercicio3.php" method="POST">
+    
+            <div class="form-group row justify-content-center">
+                <div class="col-1">
+                    <button type="submit" name ="calcular" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </form>
     </div>
     
 </body>

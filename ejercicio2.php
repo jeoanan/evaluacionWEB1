@@ -23,26 +23,44 @@
                 <li class="nav-item">
                     <a class="nav-link" href="ejercicio4.php">Ejercicio 4</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio5.php">Ejercicio 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio6.php">Ejercicio 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio7.php">Ejercicio 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio8.php">Ejercicio 8</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio9.php">Ejercicio 9</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ejercicio10.php">Ejercicio 10</a>
+                </li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
-        <h1 class="text-center">BODYTECH</h1>
-        <p>Calcule su IMC</p>
+        <h1 class="text-center mt-3"><img src="img/bodytech.png" alt="BODYTECH" width = "500px"></h1>
+        <h4 class="text-center">Calcule su IMC y conozca su peso ideal</h4>
         <form class="mt-3" action="ejercicio2.php" method="POST">
             <div class="form-group row mt-3 justify-content-center">
                 <label for="peso">Peso</label>
                 <div class="col-2">
-                    <input type="number" class="form-control"  placeholder="Peso" name= peso>
+                    <input type="number" name="peso" id="peso" class="form-control"  placeholder="Peso">
                 </div>
                 <label for="Altura" class="">Altura</label>
                 <div class="col-2">
-                    <input value="" type="number" step="any" class="form-control"  placeholder="Altura" name="altura">
+                    <input value="" type="number" name="altura" id="altura" step="any" class="form-control"  placeholder="Altura" >
                 </div>
             </div>
             <div class="form-group row justify-content-center">
                 <div class="col-1">
-                <button type="submit" class="btn btn-primary mt-4 btn-block" name="botonCalcular">Calcular</button>
+                <button type="submit" name="botonCalcular" class="btn btn-primary mt-4 btn-block">Calcular</button>
                 </div>
             </div>
         </form>
