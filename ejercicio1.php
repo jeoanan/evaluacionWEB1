@@ -89,8 +89,8 @@
                 
         <?php endif ?>
    
-            <h4>
-                <?php echo($result) ?>
+            <h4 class="text-center">
+                <?php echo("El resultado de la operación es: ". $result) ?>
             </h4>
     
 </body>
