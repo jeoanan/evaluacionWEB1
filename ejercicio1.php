@@ -31,8 +31,7 @@
     </nav>
     <div class="container-fluid">
         <h1 class="text-center">CALCULOS ENTRE 2 NÚMEROS</h1>
-        <p>Este es un programa en PHP que permite mostrar la suma, resta, multiplicación y división de dos números enteros almacenados en 2 variables diferentes (utilice formularios HTML).
-</p>
+        <p>Este es un programa en PHP que permite mostrar la suma, resta, multiplicación y división de dos números enteros almacenados en 2 variables diferentes (utilice formularios HTML).</p>
         <form action="ejercicio1.php" method="POST">
             <div class="form-group row mt-3 justify-content-center">
                 <label for="number1" class="col-1">Número 1</label>
