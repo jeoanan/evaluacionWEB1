@@ -27,7 +27,7 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <h1 class="text-center"><img src="img/grupo-bancolombia.png" alt="Postobón" width="500px"></h1>
+        <h1 class="text-center"><img src="img/grupo-bancolombia.png" alt="Bancolombia" width="500px"></h1>
 
         <form action="ejercicio4.php" method="POST">
             <div class="form-group row mt-3 justify-content-center">
