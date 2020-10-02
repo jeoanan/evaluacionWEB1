@@ -23,72 +23,108 @@
                 <li class="nav-item">
                     <a class="nav-link" href="ejercicio4.php">Ejercicio 4</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ejercicio5.php">Ejercicio 5</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ejercicio6.php">Ejercicio 6</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ejercicio7.php">Ejercicio 7</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ejercicio8.php">Ejercicio 8</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ejercicio9.php">Ejercicio 9</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ejercicio10.php">Ejercicio 10</a>
-                </li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
-        <h1 class="text-center"><img src="img/postobon.png" alt="Postobón" width="500px"></h1>
-        <h4 class="text-center mt-3">Ingresa el número de horas trabajadas para conocer su nómina semanal</h4>
-        <form action="ejercicio4.php" method="POST">
+        <h1 class="text-center"><img src="img/grupo-bancolombia.png" alt="Postobón" width="500px"></h1>
 
-            <div class="form-group row justify-content-center">
-                <label for="hours">Horas laboradas esta semana</label>
-                <div class="col-2">
-                    <input type="number" name= "hours" id="hours" class="form-control"  placeholder="Horas laboradas">
-                </div>
+        <form action="ejercicio4.php" method="POST">
+            <div class="form-group row mt-3 justify-content-center">
+                <h6 class="col-12">Digite la información del empleado 1</h6>
+                <label for="name1" class="col-1">Nombre</label>
+                <input type="text" name="name1" id="name1" class="form-control col-2"  placeholder="Nombre">
+                <label for="phone1" class="col-1">Teléfono</label>
+                <input type="text" name="phone1" id="phone1" class="form-control col-1"  placeholder="Teléfono">
+                <label for="direction1" class="col-1">Dirección</label>
+                <input type="text" name="direction1" id="direction1" class="form-control col-3"  placeholder="Dirección">
+                <label for="salary1" class="col-1">Salario</label>
+                <input type="number" class="form-control col-1" name="salary1" id="salary1" placeholder="Salario">
             </div>
+            <div class="form-group row mt-3 justify-content-center">
+                <h6 class="col-12">Digite la información del empleado 2</h6>
+                <label for="name2" class="col-1">Nombre</label>
+                <input type="text" name="name2" id="name2" class="form-control col-2"  placeholder="Nombre">
+                <label for="phone2" class="col-1">Teléfono</label>
+                <input type="text" name="phone2" id="phone2" class="form-control col-1"  placeholder="Teléfono">
+                <label for="direction2" class="col-1">Dirección</label>
+                <input type="text" name="direction2" id="direction2" class="form-control col-3"  placeholder="Dirección">
+                <label for="salary2" class="col-1">Salario</label>
+                <input type="number" name="salary2" id="salary2" class="form-control col-1" placeholder="Salario">
+            </div>
+            <div class="form-group row mt-3 justify-content-center">
+                <h6 class="col-12">Digite la información del empleado 3</h6>
+                <label for="name3" class="col-1">Nombre</label>
+                <input type="text" name="name3" id="name3" class="form-control col-2"  placeholder="Nombre">
+                <label for="phone3" class="col-1">Teléfono</label>
+                <input type="text" name="phone3" id="phone3" class="form-control col-1"  placeholder="Teléfono">
+                <label for="direction3" class="col-1">Dirección</label>
+                <input type="text" name="direction3" id="direction3" class="form-control col-3"  placeholder="Dirección">
+                <label for="salary3" class="col-1">Salario</label>
+                <input type="number" name="salary3" id="salary3" class="form-control col-1"  placeholder="Salario">
+            </div>
+            <div class="form-group row mt-3 justify-content-center">
+                <h6 class="col-12">Digite la información del empleado 4</h6>
+                <label for="nam4" class="col-1">Nombre</label>
+                <input type="text" name="name4" id="name4" class="form-control col-2"  placeholder="Nombre">
+                <label for="phone4" class="col-1">Teléfono</label>
+                <input type="text" name="phone4" id="phone4" class="form-control col-1"  placeholder="Teléfono">
+                <label for="direction4" class="col-1">Dirección</label>
+                <input type="text" name="direction4" id="direction4" class="form-control col-3"  placeholder="Dirección">
+                <label for="salary4" class="col-1">Salario</label>
+                <input type="number" name="salary4" id="salary4" class="form-control col-1" placeholder="Salario">
+            </div>
+            <div class="form-group row mt-3 justify-content-center">
+                <h6 class="col-12">Digite la información del empleado 5</h6>
+                <label for="name5" class="col-1">Nombre</label>
+                <input type="text" name="name5" id="name5" class="form-control col-2"  placeholder="Nombre">
+                <label for="phone5" class="col-1">Teléfono</label>
+                <input type="text" name="phone5" id="phone5" class="form-control col-1"  placeholder="Teléfono">
+                <label for="direction5" class="col-1">Dirección</label>
+                <input type="text" name="direction5" id="direction5" class="form-control col-3"  placeholder="Dirección">
+                <label for="salary5" class="col-1">Salario</label>
+                <input type="number" name="salary5" id="salary5" class="form-control col-1" placeholder="Salario">
+            </div>
+            
+            
             <div class="form-group row justify-content-center">
                 <div class="col-1">
-                    <button type="submit" name ="calcular" class="btn btn-primary">Calcular</button>
+                    <button type="submit" name ="send" class="btn btn-primary">Enviar</button>
                 </div>
             </div>
         </form>
 
-        <?php if(isset($_POST["calcular"])) : ?>
-            <?php
-                $normalHours=0;
-                $extraHours=0;
-                $salaryb=0;
-                $salaryextra=0;
-                $salaryWeek=0;
-                if($_POST["hours"]<=40) {
-                    $normalHours=$_POST["hours"];
-                }
-                else {
-                    $normalHours= 40;
-                    $extraHours=$_POST["hours"] - 40;
-                }
+        <?php if(isset($_POST["send"])) :?>
+        <?php
+            $salaryB = 40000000;
+            $salaryC = 32000000;
+            $mayorSucursal;
+            $names = array($_POST["name1"],$_POST["name2"],$_POST["name3"],$_POST["name4"],$_POST["name5"]);
+            $phones = array($_POST["phone1"],$_POST["phone2"],$_POST["phone3"],$_POST["phone4"],$_POST["phone5"]);
+            $directions = array($_POST["direction1"],$_POST["direction2"],$_POST["direction3"],$_POST["direction4"],$_POST["direction5"]);
+            $salarys = array($_POST["salary1"],$_POST["salary2"],$_POST["salary3"],$_POST["salary4"],$_POST["salary5"]);
 
-                $salaryb=$normalHours * 20000;
-                $salaryextra=$extraHours * 25000;
-                $salaryWeek=$salaryb+$salaryextra;
+            $sumatoriaSalarios=$salarys[0] + $salarys[1] + $salarys[2] + $salarys[3] + $salarys[4];
+
             ?>
-
-            <h4 class="text-center">
-                <?php 
-                    echo ("Su salario semana es de: ". $salaryWeek);
-                ?>
-            </h4>
-
-        <?php endif ?>
+        <?php 
+            if($sumatoriaSalarios > $salaryB) {
+                $mayorSucursal = "A";
+            } 
+            else {
+                $mayorSucursal = "B";
+            }
+        ?>    
+        <h2>La sucursal <?php echo($mayorSucursal);?> tiene la mejor sumatoria de salarios"</h2>
+        <br>
+        <br>
+        <h4><?php echo("Nombre del empleado: ". $names[0]." Teléfono: ".$phones[0]." Dirección: ".$directions[0]." Salario: ". $salarys[0] ); ?></h4>
+        <h4><?php echo("Nombre del empleado: ". $names[1]." Teléfono: ".$phones[1]." Dirección: ".$directions[1]." Salario: ". $salarys[1] ); ?></h4>
+        <h4><?php echo("Nombre del empleado: ". $names[2]." Teléfono: ".$phones[2]." Dirección: ".$directions[2]." Salario: ". $salarys[2] ); ?></h4>
+        <h4><?php echo("Nombre del empleado: ". $names[3]." Teléfono: ".$phones[3]." Dirección: ".$directions[3]." Salario: ". $salarys[3] ); ?></h4>
+        <h4><?php echo("Nombre del empleado: ". $names[4]." Teléfono: ".$phones[4]." Dirección: ".$directions[4]." Salario: ". $salarys[4] ); ?></h4>
+                
+        <?php endif?>
     </div>
     
 </body>
